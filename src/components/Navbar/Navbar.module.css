@@ -38,9 +38,14 @@ nav {
 
             & li {
                 margin: 0 35px;
+                transition: .3s ease;
 
                 & a {
                     text-decoration: none;
+                }
+
+                &:hover {
+                    transform: scale(1.2);
                 }
             }
         }
