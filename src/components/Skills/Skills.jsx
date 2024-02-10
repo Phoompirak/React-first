@@ -2,7 +2,8 @@ import React from 'react'
 import styles from './Skills.module.css'
 import { IoLogoJavascript } from 'react-icons/io';
 import { SiArduino } from "react-icons/si";
-import { FaPython, FaReact, FaHtml5 } from 'react-icons/fa6'
+import { FaPython, FaReact } from 'react-icons/fa6'
+import { SiAdobepremierepro } from "react-icons/si";
 
 function Skills() {
     return (
@@ -22,7 +23,7 @@ function Skills() {
                     <SiArduino />
                 </li>
                 <li>
-                    <FaHtml5 />
+                    <SiAdobepremierepro />
                 </li>
             </ul>
         </div>

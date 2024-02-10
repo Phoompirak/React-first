@@ -18,11 +18,13 @@ function Hero() {
                 sequence={[
                   // Same substring at the start will only be typed out once, initially
                   'Developer',
-                  1000, // wait 1s before replacing "Mice" with "Hamsters"
-                  'Web Developer',
-                  1000,
+                  2000, // wait 1s before replacing "Mice" with "Hamsters"
+                  'Editor',
+                  2000,
+                  'Youtuber',
+                  2000,
                 ]}
-                speed={50}
+                speed={30}
                 repeat={Infinity}
               />
             </p>
