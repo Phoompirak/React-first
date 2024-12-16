@@ -10,7 +10,7 @@ function Contact() {
                 <div className={styles.contact_info}>
                     <h3>Get in touch</h3>
                     <p className={styles.contact_desc}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eius eligendi in
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         laboriosam delectus ipsum inventore alias dolorem ducimus aliquid.
                     </p>
                     <p className={styles.contact_address}>
