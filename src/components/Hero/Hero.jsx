@@ -29,9 +29,9 @@ function Hero() {
               />
             </p>
             <p className={styles.text_4}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat <br />
-              ipsum corporis excepturi voluptatibus iste aliquam asperiores, iusto officia <br />
-              doloribus sunt, ab quidem, tenetur!
+              
+              นักสร้างสรรค์ดิจิทัลพัฒนาทักษะ ไม่ว่าจะเป็น<b>การเขียนโค้ดที่ซับซ้อน</b>หรือการ<b>สร้างภาพกราฟิก</b>ที่น่าประทับใจ พร้อมเดินทางสู่โลกแห่งนวัตกรรมไร้ขีดจำกัด ✨🚀
+              มุ่งมั่น  และก้าวไปข้างหน้าด้วยความมุ่งมานะและ<b>ความฝันอันยิ่งใหญ่</b>ครับ
             </p>
             <ul className={styles.hero_social}>
               <li><a href='https://github.com/Phoompirak' target='_blank'><FaGithub /></a></li>
@@ -40,9 +40,11 @@ function Hero() {
             </ul>
           </div>
 
-          <Tilt transitionSpeed={2500} tiltReverse={true}>
-            <div className={styles.hero_img}></div>
-          </Tilt>
+          <div>
+            <Tilt transitionSpeed={2500} tiltReverse={true}>
+              <div className={styles.hero_img}></div>
+            </Tilt>
+          </div>
 
         </div>
       </div>

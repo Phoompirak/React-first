@@ -10,17 +10,21 @@ function Servies() {
         <div className={styles.services_item}>
             <FaCode />
             <h4>Web Developer</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat enim repudiandae delectus, reiciendis id temporibus autem, alias vero architecto odio veniam atque, natus rerum? Ducimus sapiente provident mollitia est odit!</p>
+            <p>ออกแบบและสร้างหน้าเว็บแบบ <b>static page</b> หรือ <b>web server page</b> ทำ3Dโมเดล</p>
         </div>
         <div className={styles.services_item}>
             <FaPaintbrush />
-            <h4>Web Design</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat enim repudiandae delectus, reiciendis id temporibus autem, alias vero architecto odio veniam atque, natus rerum? Ducimus sapiente provident mollitia est odit!</p>
+            <h4>Editor video</h4>
+            <p>
+              ตัดต่อวิดีโอความยาว <b>8-15นาที</b>
+            สไตล์Jump cut, Montage, Punch Cut
+            ตัดแต่งเสียง
+            เลือกตัวอย่างการตัดต่อได้</p>
         </div>
         <div className={styles.services_item}>
             <FaDesktop />
-            <h4>Web Developer</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat enim repudiandae delectus, reiciendis id temporibus autem, alias vero architecto odio veniam atque, natus rerum? Ducimus sapiente provident mollitia est odit!</p>
+            <h4>Presentation Slide</h4>
+            <p>ค้นคว้าข้อมูล เพื่อนำมาทำสไลด์พรีเซนต์เนื้อหาต่างๆ</p>
         </div>
       </div>
     </div>

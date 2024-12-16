@@ -17,8 +17,8 @@ function Contact() {
                         123 Main Street
                         Bangkok, Thailand
                     </p>
-                    <p><FaPhone />(+66) 98 555 1234</p>
-                    <p><FaEnvelope />support@site.com</p>
+                    <p><FaPhone /> (+66) 98 555 1234</p>
+                    <p><FaEnvelope /> support@site.com</p>
                 </div>
 
                 {/* From */}

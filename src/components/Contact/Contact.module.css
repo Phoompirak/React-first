@@ -3,6 +3,7 @@
     background-color: #8a382f;
     color: #fff;
     overflow: hidden;
+    padding: 2rem;
 
     & .contact_con {
         max-width: 1170px;
@@ -27,14 +28,15 @@
 
         & .contact_form {
             width: 520px;
-
+            
             & label {
                 display: block;
                 margin: 10px 0;
                 font-size: 14px;
             }
-
+            
             & .input_group {
+                gap: 1rem;
                 display: flex;
                 justify-content: space-between;
 

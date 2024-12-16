@@ -5,65 +5,72 @@
     & .container {
         max-width: 1170px;
         margin: 0 auto;
-    }
-
-    & .hero_con {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 115px;
-
-        & .text_1 {
-            font-size: 32px;
-        }
-
-        & .text_2 {
-            font-weight: bold;
-            color: #D24545;
-            font-size: 64px;
-        }
-
-        & .text_3 {
-            font-size: 32px;
-        }
-
-        & .text_4 {
-            font-size: 16px;
-            margin-top: 25px;
-        }
-
-        & .hero_social {
+        
+        & .hero_con {
+            padding: 0 2rem;
+            gap: 4rem;
             display: flex;
-            list-style: none;
-            margin-top: 25px;
+            justify-content: space-between;
+            margin-top: 115px;
 
-            & li {
-                margin-right: 10px;
+            & .text_1 {
+                font-size: 32px;
+            }
 
-                & svg {
-                    width: 32px;
-                    height: 32px;
-                    color: #333;
-                    transition: all .3s ease;
-                }
+            & .text_2 {
+                font-weight: bold;
+                color: #D24545;
+                font-size: 64px;
+            }
 
-                & svg:hover {
-                    color: #222;
-                    transform: scale(1.2);
+            & .text_3 {
+                font-size: 32px;
+            }
+
+            & .text_4 {
+                font-family: "Noto Sans Thai";
+                font-size: 16px;
+                margin-top: 25px;
+                
+                & b {
+                    font-family: "Noto Sans Thai";
                 }
             }
-        }
 
-        & .hero_img {
-            width: 300px;
-            height: 300px;
-            border-radius: 100%;
-            background-image: url(https://i.pinimg.com/564x/d4/33/5d/d4335ded1a0db0e03345a0cdaa097355.jpg);
-            background-size: cover;
-            transition: all .3s ease;
-        }
+            & .hero_social {
+                display: flex;
+                list-style: none;
+                margin-top: 25px;
 
-        & .hero_img:hover {
-            transform: scale(1.1);
+                & li {
+                    margin-right: 10px;
+
+                    & svg {
+                        width: 32px;
+                        height: 32px;
+                        color: #333;
+                        transition: all .3s ease;
+                    }
+
+                    & svg:hover {
+                        color: #222;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+
+            & .hero_img {
+                width: 300px;
+                height: 300px;
+                border-radius: 100%;
+                background-image: url(https://i.pinimg.com/564x/d4/33/5d/d4335ded1a0db0e03345a0cdaa097355.jpg);
+                background-size: cover;
+                transition: all .3s ease;
+            }
+
+            & .hero_img:hover {
+                transform: scale(1.1);
+            }
         }
     }
 }
@@ -85,6 +92,7 @@
             }
 
             & .hero_img {
+                justify-self: center;
                 transform: scale(0.89);
 
                 &:hover {

@@ -1,11 +1,14 @@
 .number_con {
     margin-top: 100px;
-    height: 300px;
+    height: 100%;
     background-color: #A94438;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 2rem;
+    padding: 2rem 0;
 
     & .number_items {
         color: #fff;
@@ -23,6 +26,11 @@
     }
 }
 
+@media screen and (max-width: 930px) {
+    .number_con {
+        padding: 0 2rem;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .number_con {

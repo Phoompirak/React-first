@@ -33,7 +33,8 @@ function Portfolio() {
         </div>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
-            <img src="https://media1.tenor.com/m/hmDMrE1yMAkAAAAC/when-the-coding-when-the.gif" alt="" />
+          <iframe src="https://drive.google.com/file/d/1MUCwhzqiqwgNu3t9JElRPfMGswJwhvJg/preview" width="640" height="480" allow="autoplay"></iframe>
+            {/* <img src="https://drive.google.com/file/d/1MUCwhzqiqwgNu3t9JElRPfMGswJwhvJg/preview" alt="" /> */}
           </Tilt>
           <p>Project cheating on exam</p>
         </div>
