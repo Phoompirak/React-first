@@ -24,6 +24,10 @@
                 height: 300px;
                 border-radius: 15px;
                 object-fit: cover;
+
+                &:active {
+                    transform: scale(.9);
+                }
             }
             & iframe {
                 width: 100%;

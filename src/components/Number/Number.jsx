@@ -12,19 +12,19 @@ function Number() {
                     <VisibilitySensor>
                         {({ isVisible }) => (
                             <div>
-                                {isVisible ? <CountUp start={0} end={100} duration={5} /> : null}+
+                                {isVisible ? <CountUp start={0} end={300} duration={5} /> : null}+
                             </div>
                         )}
                     </VisibilitySensor>
                 </h3>
-                <p>Project Web scrapping</p>
+                <p>Editor video Experiance</p>
             </div>
             <div className={styles.number_items}>
                 <h3>
                     <VisibilitySensor>
                         {({ isVisible }) => (
                             <div>
-                                {isVisible ? <CountUp start={0} end={8000} duration={5} /> : null}+
+                                {isVisible ? <CountUp start={0} end={9400} duration={5} /> : null}+
                             </div>
                         )}
                     </VisibilitySensor>
@@ -41,19 +41,19 @@ function Number() {
                         )}
                     </VisibilitySensor>
                 </h3>
-                <p>Project Web scrapping</p>
+                <p>Graphic motion video</p>
             </div>
             <div className={styles.number_items}>
                 <h3>
                     <VisibilitySensor>
                         {({ isVisible }) => (
                             <div>
-                                {isVisible ? <CountUp start={0} end={200} duration={5} /> : null}+
+                                {isVisible ? <CountUp start={0} end={20} duration={5} /> : null}+
                             </div>
                         )}
                     </VisibilitySensor>
                 </h3>
-                <p>Project Web scrapping</p>
+                <p>Tiktok video</p>
             </div>
 
         </div>

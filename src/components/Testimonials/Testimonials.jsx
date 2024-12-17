@@ -21,7 +21,7 @@ function Testimonials() {
                 <div className={styles.testi_items}>
                     <p>Lorem ipsum dolor sit amet consectetur,  architecto expedita amet possimus laudantium. Magni eaque soluta voluptas.</p>
                     <img src="https://scontent.fnak1-1.fna.fbcdn.net/v/t39.30808-6/460634085_383571034795087_3449167837828296833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=pB1LXp5Oha0Q7kNvgFtnlaO&_nc_oc=AdgE2oygKF1WErs_cekNWKErSS26ueMZtfxbzgKSJ4pkaZjUFrsgmCWKgWHKUzmsDHA&_nc_zt=23&_nc_ht=scontent.fnak1-1.fna&_nc_gid=AGa9JS1B1b8j-5ZWXKLDDSu&oh=00_AYC8pyGQRgYQFf5K6bEMjpUfDK8pNUVY3rEosROgcMXxNQ&oe=67668809" alt="" />
-                    <h4>Jan Jauw</h4>
+                    <h4>Phoom 300x</h4>
                     <p className={styles.bio}>Full stack</p>
                 </div>
             </div>

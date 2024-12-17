@@ -39,7 +39,7 @@ function Contact() {
                         <input type="email" placeholder='eg. johndoe@gmail.com' />
                         <label htmlFor="message">Your message</label>
                         <textarea name="" id="" cols="30" rows="10" placeholder='Type here'></textarea>
-                        <button type='submit'>Submit</button>
+                        <button type='button'>Submit</button>
                     </form>
                 </div>
 

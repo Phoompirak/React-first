@@ -9,15 +9,18 @@ function Portfolio() {
       <div className={styles.port_list}>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
-            <img src="https://images.unsplash.com/photo-1579403124614-197f69d8187b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D" alt="" />
+            <img src="../../../public/Prank-friends.png" alt="" />
           </Tilt>
-          <p>Project Title</p>
+          <p>Project Coding tutorial</p>
         </div>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
-            <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww" alt="" />
+              {/* <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww" alt="" /> */}
+              <img src="../../../public/poke.png" alt="" />
+            <a href="https://pok-mon-restful-api.onrender.com/" target='_blank'>
+            </a>
           </Tilt>
-          <p>Project Title</p>
+          <p>Project Web Pokemon Information</p>
         </div>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
@@ -27,22 +30,22 @@ function Portfolio() {
         </div>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
-            <img src="https://media1.tenor.com/m/cX92mi1p-NYAAAAd/coding-anime.gif" alt="" />
+            <img src="../../../public/animation.png" alt="" />
           </Tilt>
-          <p>Project Hello world!</p>
+          <p>Project Animation Competition</p>
         </div>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
-          <iframe src="https://drive.google.com/file/d/1MUCwhzqiqwgNu3t9JElRPfMGswJwhvJg/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1MUCwhzqiqwgNu3t9JElRPfMGswJwhvJg/preview" width="640" height="480" allow="autoplay"></iframe>
             {/* <img src="https://drive.google.com/file/d/1MUCwhzqiqwgNu3t9JElRPfMGswJwhvJg/preview" alt="" /> */}
           </Tilt>
-          <p>Project cheating on exam</p>
+          <p>Project create short film</p>
         </div>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
             <img src="https://media1.tenor.com/m/iAy-KwJB1DkAAAAC/typing.gif" alt="" />
           </Tilt>
-          <p>Project Typing 38wpm</p>
+          <p>Project Typing 50wpm</p>
         </div>
       </div>
     </div>
