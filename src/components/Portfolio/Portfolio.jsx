@@ -21,7 +21,7 @@ function Portfolio() {
         </div>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
-            <img src="https://images.unsplash.com/photo-1575089976121-8ed7b2a54265?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <img src="../../../public/models.png" alt="" />
           </Tilt>
           <p>Project Title</p>
         </div>
