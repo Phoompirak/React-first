@@ -9,14 +9,14 @@ function Portfolio() {
       <div className={styles.port_list}>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
-            <img src="../../../public/Prank-friends.png" alt="" />
+            <img src='/Prank-friends.png' alt="" />
           </Tilt>
           <p>Project Coding tutorial</p>
         </div>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
               {/* <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww" alt="" /> */}
-              <img src="../../../public/poke.png" alt="" />
+              <img src='/poke.png' alt="" />
             <a href="https://pok-mon-restful-api.onrender.com/" target='_blank'>
             </a>
           </Tilt>
@@ -24,13 +24,13 @@ function Portfolio() {
         </div>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
-            <img src="../../../public/models.png" alt="" />
+            <img src='/models.png' alt="" />
           </Tilt>
           <p>Project Title</p>
         </div>
         <div className={styles.port_item}>
           <Tilt transitionSpeed={2500} tiltReverse={true}>
-            <img src="../../../public/animation.png" alt="" />
+            <img src='/animation.png' alt="" />
           </Tilt>
           <p>Project Animation Competition</p>
         </div>
