@@ -1,5 +1,11 @@
-### My web site
-https://react-first-8zxpztmmm-phoompiraks-projects.vercel.app/
+# My web site
+ - #### Deploy web with [Vercel](https://vercel.com/)
+  https://react-first-8zxpztmmm-phoompiraks-projects.vercel.app/
+
+ - #### Deploy web with [Render](https://render.com/)
+  https://react-first-portfolio.onrender.com/
+
+<hr>
 
 # เรียนจาก
 ### FutureSkill
@@ -7,7 +13,7 @@ https://react-first-8zxpztmmm-phoompiraks-projects.vercel.app/
 ##### พัฒนาเว็บ React Portfolio ตั้งแต่เริ่มต้นจนขึ้น Deploy
 ###### ปฏิภาณ เพ็งเภา
 
-### Deploy web with [Vercel](https://vercel.com/)
+
 
 # React + Vite
 
